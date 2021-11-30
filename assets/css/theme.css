@@ -18779,3 +18779,8 @@ a.navbar-brand {
   width: 130px;
 }
 }
+
+#info{
+  background-image: url(../img/gallery/infoBg.png);
+  background-size: cover;
+}

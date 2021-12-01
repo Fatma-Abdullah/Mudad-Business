@@ -18781,6 +18781,11 @@ a.navbar-brand {
 .logo img{
   width: 130px;
 }
+#info {
+  background-image: url(../img/gallery/infoBg.png);
+  background-size: 100% 20%;
+  background-repeat: no-repeat;
+}
 }
 
 #info{

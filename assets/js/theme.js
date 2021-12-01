@@ -24,7 +24,8 @@ var docReady = function docReady(fn) {
 $('#play-video').on('click', function(e){
   e.preventDefault();
   $('#video-overlay').addClass('open');
-  $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/AcW39L9M1EM"  frameborder="0" allowfullscreen></iframe>');
+  $("#video-overlay").append('<iframe width="560" height="315" src="https://www.youtube.com/embed/RnBFtVhQWEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+  
 });
 
 $('.video-overlay, .video-overlay-close').on('click', function(e){

@@ -18729,11 +18729,14 @@ margin:50px 0
     .logo {
       margin: 17px 23px 30px;
   }
+
 #video {
   background-image: url(../img/gallery/videoBg.png);
   /* background-size: cover; */
   padding: 9em 0;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
+  background-position: center;
+  background-size: cover;
 }
 a.navbar-brand {
   /* margin-left: auto; */
